@@ -1,0 +1,93 @@
+
+.green{
+    background-color: #cc9923;
+}
+
+.bg-image{
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:600px;
+}
+#galerijabg{
+    background-image: url(./img/galerijabg.jpg);
+}
+#kontaktbg{
+    background-image: url(./img/kontaktbg.jpg);
+}
+#faqbg{
+    background-image: url(./img/faqbg.jpg);
+}
+#indexbg{
+    background-image: url(./img/indexbg.jpg);
+}
+#onamabg{
+    background-image: url(./img/onamabg.jpg);
+}
+.darkyellow{
+    color: #cc9923;
+}
+.circle img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.circle {
+    text-align: center;
+}
+.meni{
+    background-color: #FEF5EF!important;
+}
+.table tbody td{
+     background-color: #FEF5EF;
+}
+.table tbody tr{
+    border-bottom: 1px #cc9923 !important;
+    border-radius: 5px !important;
+}
+#slikica{
+    background-image: url(./img/logo3.png);
+    background-repeat: repeat-x;
+    height: 75px;
+}
+.linija{
+    border:3px solid #cc9923;
+}
+.nav-item:hover{
+    border-bottom: 2px solid #cc9923;
+}
+.bez{
+    background-color: #FEF5EF;
+}
+.galerijaimg img:hover{
+    transform: scale(1.04);
+}
+.galerijaimg img{
+    transition: all 0.2s;
+    padding: 3px;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover {
+    background-color: #cc9923;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FEF5EF;
+    z-index: 1;
+  }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
